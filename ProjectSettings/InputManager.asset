@@ -39,7 +39,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Attack1
-    descriptiveName: Player 1 Attack
+    descriptiveName: Controller 1 Attack
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: joystick 1 button 0
@@ -55,12 +55,44 @@ InputManager:
     joyNum: 1
   - serializedVersion: 3
     m_Name: Attack2
-    descriptiveName: Player 2 Attack
+    descriptiveName: Controller 2 Attack
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: joystick 2 button 0
     altNegativeButton: 
     altPositiveButton: .
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 1
+  - serializedVersion: 3
+    m_Name: Attack3
+    descriptiveName: Controller 3 Attack
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: joystick 3 button 0
+    altNegativeButton: 
+    altPositiveButton: space
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 1
+  - serializedVersion: 3
+    m_Name: Attack4
+    descriptiveName: Controller 4 Attack
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: joystick 4 button 0
+    altNegativeButton: 
+    altPositiveButton: left ctrl
     gravity: 1000
     dead: 0.001
     sensitivity: 1000

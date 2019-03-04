@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e3c2775b8463ba54f945d8f4b4364217
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Vollkorn SemiBold
+  fontNames:
+  - Vollkorn SemiBold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9a89b704ebf790644a35b67c33ef71b8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
