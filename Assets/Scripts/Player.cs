@@ -23,6 +23,6 @@ public class Player : MonoBehaviour
 
         gameObject.name = string.Format("Player {0} - {1}", playerNumber, controller.gameObject.name);
 
-        uiPlayerText.HandlePlayerInitialized();
+        uiPlayerText.HandlePlayerInitialized(playerNumber);
     }
 }
