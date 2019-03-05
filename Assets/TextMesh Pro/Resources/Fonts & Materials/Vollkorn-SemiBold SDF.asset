@@ -11,19 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Vollkorn-SemiBold SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 665309994
   material: {fileID: 21322867532643060}
-  materialHashCode: 0
+  materialHashCode: 534832481
   fontAssetType: 1
   m_fontInfo:
     Name: Vollkorn SemiBold
     PointSize: 71
-    Scale: 0
+    Scale: 1
     CharacterCount: 99
     LineHeight: 98.875
     Baseline: 0
     Ascender: 67.625
-    CapHeight: 0
+    CapHeight: 48.25
     Descender: -31.3125
     CenterLine: 0
     SuperscriptOffset: 67.625
@@ -33,7 +33,7 @@ MonoBehaviour:
     UnderlineThickness: 3.408
     strikethrough: 13.204545
     strikethroughThickness: 3.408
-    TabWidth: 0
+    TabWidth: 141.875
     Padding: 5
     AtlasWidth: 512
     AtlasHeight: 512
@@ -42,10 +42,10 @@ MonoBehaviour:
   - id: 32
     x: 6
     y: 517
-    width: 0
-    height: 0
+    width: 14.1875
+    height: 98.9375
     xOffset: 0
-    yOffset: 0
+    yOffset: 67.625
     xAdvance: 14.1875
     scale: 1
   - id: 33
