@@ -37,6 +37,8 @@ public class UICharacterSelectionMarker : MonoBehaviour
         {
             return;
         }
+
+        //check for player controls and selection for locking character
     }
 
     private IEnumerator Initialize()
