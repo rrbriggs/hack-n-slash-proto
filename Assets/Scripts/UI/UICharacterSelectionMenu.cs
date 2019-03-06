@@ -1,10 +1,42 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 public class UICharacterSelectionMenu : MonoBehaviour
 {
     [SerializeField] private UICharacterSelectionPanel leftPanel;
     [SerializeField] private UICharacterSelectionPanel rightPanel;
 
+    [SerializeField] TextMeshProUGUI startGameText;
+
+    private UICharacterSelectionMarker[] markers;
+
     public UICharacterSelectionPanel LeftPanel { get { return leftPanel; } }
     public UICharacterSelectionPanel RightPanel { get { return rightPanel; } }
+
+    private void Awake()
+    {
+        markers = GetComponentsInChildren<UICharacterSelectionMarker>();
+    }
+
+    private void Update()
+    {
+        int playerCount = 0;
+        int lockedCount = 0;
+
+        foreach (var marker in markers)
+        {
+            if (marker.IsPlayerInGame)
+            {
+                playerCount++;
+            }
+
+            if (marker.IsLockedIn)
+            {
+                lockedCount++;
+            }
+        }
+
+        bool startEnabled = playerCount > 0 && playerCount == lockedCount;
+        startGameText.gameObject.SetActive(startEnabled);
+    }
 }
