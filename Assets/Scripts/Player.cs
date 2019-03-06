@@ -6,10 +6,11 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private int playerNumber;
 
-    private Controller controller;
+    public Controller Controller { get; private set; }
+
     private UIPlayerText uiPlayerText;
 
-    public bool HasController { get { return controller != null; } }
+    public bool HasController { get { return Controller != null; } }
     public int PlayerNumber { get { return playerNumber; } }
 
     private void Awake()
@@ -19,7 +20,7 @@ public class Player : MonoBehaviour
 
     public void InitializePlayer(Controller controller)
     {
-        this.controller = controller;
+        Controller = controller;
 
         gameObject.name = string.Format("Player {0} - {1}", playerNumber, controller.gameObject.name);
 
